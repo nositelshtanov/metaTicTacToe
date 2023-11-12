@@ -38,6 +38,7 @@ int main() {
         }
     } catch (const std::exception& excp) {
         std::cout << "sorry, an error was occured\n" << excp.what() << std::endl;
+        return 1;
     }
     return 0;
 }
